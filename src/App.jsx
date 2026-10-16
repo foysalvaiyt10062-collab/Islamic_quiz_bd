@@ -170,7 +170,7 @@ function shuffleArray(arr) {
     const initAd = () => {
       if (window.Adsgram) {
         try {
-          window.AdController = window.Adsgram.init({ blockId: "54202" })
+window.AdController = window.Adsgram.init({ blockId: "54287" })
         } catch (e) { console.log(e) }
       } else {
         setTimeout(initAd, 500)
